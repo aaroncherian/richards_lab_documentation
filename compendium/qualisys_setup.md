@@ -3,16 +3,16 @@
 
 ## Creating a New Project
 1. Open QTM and select 'New Project'.
-    - Always import from an existing project to avoid reconfiguring hardware.
+    - Always import from an existing project to avoid reconfiguring hardware (choice pops up after hitting OK)
     - Look for the `.qtmproj` file for settings (update location of the best file to use).
 
 ## Loading Calibration
-1. In the toolbar, go to Settings (gear icon) > Input Devices > Camera Systems > Calibration.
+1. In the toolbar, go to Settings (gear icon) > Input Devices > Camera Systems > Calibration > Current Calibration
 2. Press 'Load Other' and find a `.qca` file to load a good calibration.
 
 ## 2D and 3D Views
 1. Press `Ctrl + N` for a new 2D view of infrared.
-2. Switch between infrared and RGB views using the Marker and Video view options on the right.
+2. Switch between infrar3ed and RGB views using the Marker and Video view options on the right.
 3. Enter 3D view by pressing `3` or selecting the 3D button in the toolbar.
     - The bounding box restricts tracking outside of this box.
     - Keep the bounding box due to external lights and webcams.
@@ -21,6 +21,7 @@
 1. Check the number of reflections in the bottom right of the 2D view. Aim for 0 reflections.
 2. Investigate reflections and mask objects if necessary.
     - Use the mask tool in the marker view.
+    - Ocus cameras have a 5 mask maximum
 
 ## Wooden Rig Setup
 1. Place the wooden rig bar on the treadmill.
@@ -30,7 +31,7 @@
     - Adjust with the axle if necessary to level out the bubbles.
 
 ## Calibration Process
-1. Adjust exposure, flash time, and marker threshold to strengthen reflections.
+1. Adjust exposure, flash time, and marker threshold to strengthen markers.
     - Typical exposure: 130-200, marker threshold: 20-30.
 2. Avoid adjusting settings from the main screen, as it affects all cameras.
 3. Start calibration using `Ctrl + Shift + Alt + C`.

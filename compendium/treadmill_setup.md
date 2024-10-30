@@ -11,6 +11,6 @@
 1. Open the treadmill app from the toolbar (`Treadmill Control Panel 1.8.7`).
 2. If there are errors, hit OK (errors may appear if you hit the e-stop last).
 3. Close the app and reopen it.
-4. Hold the blinking downward triangle to home the treadmill.
-    - Once the slider appears, decline it until the display says 'Homed' instead of 'Jog Only.'
+4. Hold the blinking downward triangle (on the right side) to home the treadmill.
+    - It is declined once the slider appear - check that the display says 'Homed' instead of 'Jog Only.'
 5. Tighten the clamps after homing.
